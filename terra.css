@@ -42,7 +42,7 @@
   }
 }
 
-.chesscord-container {
+.terra-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -50,7 +50,7 @@
   align-items: center;
   flex-direction: column;
 }
-.chesscord-header {
+.terra-header {
   width: 100%;
   display: flex;
   z-index: 100;
@@ -59,38 +59,38 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
-.chesscord-logo {
+.terra-logo {
   color: #ffffff;
 }
-.chesscord-container01 {
-  gap: 0;
+.terra-container01 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
   align-items: space-between;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #D9D9D9;
 }
-.chesscord-buttons {
+.terra-buttons {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
+  background-color: var(--dl-color-custom-neutral-dark);
 }
-.chesscord-navlink {
+.terra-navlink {
   text-decoration: none;
 }
-.chesscord-register {
+.terra-register {
   text-decoration: none;
 }
-.chesscord-desktop-menu {
+.terra-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
-.chesscord-hero {
+.terra-hero {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -99,23 +99,23 @@
   align-items: flex-start;
   justify-content: center;
 }
-.chesscord-container02 {
+.terra-container02 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.chesscord-hero-heading {
+.terra-hero-heading {
   color: #ffffff;
   max-width: 800px;
   text-align: center;
 }
-.chesscord-text03 {
+.terra-text03 {
   color: rgb(255, 255, 255);
   text-transform: capitalize;
 }
-.chesscord-container03 {
+.terra-container03 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -123,19 +123,19 @@
   align-items: flex-start;
   justify-content: center;
 }
-.chesscord-btn-group {
+.terra-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.chesscord-hero-button1 {
+.terra-hero-button1 {
   text-decoration: none;
 }
-.chesscord-hero-button2 {
+.terra-hero-button2 {
   text-decoration: none;
 }
-.chesscord-features {
+.terra-features {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -143,7 +143,7 @@
   align-items: center;
   justify-content: center;
 }
-.chesscord-features1 {
+.terra-features1 {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
   display: flex;
@@ -156,30 +156,39 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.chesscord-image {
+.terra-image {
   width: 200px;
   object-fit: cover;
 }
-.chesscord-container04 {
+.terra-container04 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.chesscord-features-heading {
+.terra-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.chesscord-features-sub-heading {
+.terra-features-sub-heading {
   font-size: 18px;
   text-align: center;
 }
-.chesscord-container05 {
+.terra-container05 {
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-oneandhalfunits);
   grid-template-columns: 1fr 1fr;
 }
-.chesscord-banner {
+.terra-pricing {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terra-banner {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -187,21 +196,21 @@
   align-items: center;
   justify-content: center;
 }
-.chesscord-banner1 {
+.terra-banner1 {
   height: 269px;
 }
-.chesscord-banner-heading {
+.terra-banner-heading {
   color: #ffffff;
   text-align: center;
 }
-.chesscord-text26 {
-  color: #c2c2c2;
+.terra-text25 {
+  color: rgb(194, 194, 194);
   text-align: center;
 }
-.chesscord-banner-button {
+.terra-banner-button {
   text-decoration: none;
 }
-.chesscord-faq {
+.terra-faq {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -209,7 +218,7 @@
   align-items: center;
   justify-content: center;
 }
-.chesscord-faq1 {
+.terra-faq1 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -221,26 +230,26 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fourunits);
 }
-.chesscord-container06 {
+.terra-container06 {
   display: flex;
   max-width: 35%;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.chesscord-text36 {
+.terra-text35 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.chesscord-text37 {
+.terra-text36 {
   text-align: left;
 }
-.chesscord-container07 {
+.terra-container07 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.chesscord-footer {
+.terra-footer {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -248,7 +257,7 @@
   align-items: center;
   justify-content: center;
 }
-.chesscord-container08 {
+.terra-container08 {
   gap: var(--dl-space-space-unit);
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -256,32 +265,33 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.chesscord-logo1 {
+.terra-logo1 {
   color: #ffffff;
 }
-.chesscord-nav {
+.terra-nav {
+  gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.chesscord-nav5 {
+.terra-nav1 {
+  color: rgb(255, 255, 255);
+  margin-left: 0px;
+  text-decoration: none;
+}
+.terra-nav11 {
+  color: rgb(255, 255, 255);
+  margin-left: 0px;
+  text-decoration: none;
+}
+.terra-nav5 {
   color: #ffffff;
   margin-left: 0px;
   text-decoration: none;
 }
-.chesscord-nav51 {
-  color: #ffffff;
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.chesscord-nav52 {
-  color: #ffffff;
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.chesscord-separator {
+.terra-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -299,7 +309,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.chesscord-container09 {
+.terra-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -307,10 +317,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.chesscord-text44 {
+.terra-text43 {
   color: #ffffff;
 }
-.chesscord-icon-group {
+.terra-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
@@ -318,184 +328,194 @@
   justify-content: space-between;
 }
 @media(max-width: 991px) {
-  .chesscord-container {
+  .terra-container {
     background-color: #161616;
   }
-  .chesscord-navbar-interactive {
+  .terra-navbar-interactive {
     position: relative;
   }
-  .chesscord-buttons {
+  .terra-buttons {
     gap: var(--dl-space-space-unit);
     flex: 0;
     flex-direction: row;
     justify-content: center;
   }
-  .chesscord-navlink {
+  .terra-navlink {
     padding-right: 1rem;
-    text-decoration: none;
   }
-  .chesscord-hero1 {
+  .terra-hero1 {
     height: 364px;
     align-items: flex-start;
     flex-direction: row;
   }
-  .chesscord-container02 {
+  .terra-container02 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .chesscord-hero-heading {
+  .terra-hero-heading {
+    height: 57px;
     text-align: center;
   }
-  .chesscord-text03 {
+  .terra-text03 {
     color: rgb(255, 255, 255);
+    text-align: center;
     text-transform: capitalize;
   }
-  .chesscord-image {
+  .terra-image {
     width: 99px;
     height: 99px;
   }
-  .chesscord-features-sub-heading {
+  .terra-features-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .chesscord-banner1 {
+  .terra-banner1 {
     height: 350px;
   }
-  .chesscord-banner-heading {
-    color: rgb(255, 255, 255);
+  .terra-banner-heading {
+    color: #ffffff;
     width: 95%;
     font-size: 35px;
+    font-family: Hind;
+    line-height: 150%;
   }
-  .chesscord-text24 {
+  .terra-text22 {
     font-weight: 900;
   }
-  .chesscord-text26 {
+  .terra-text25 {
     color: rgb(194, 194, 194);
     text-align: center;
   }
-  .chesscord-text27 {
-    text-align: center;
-  }
-  .chesscord-text37 {
+  .terra-text36 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .chesscord-logo1 {
+  .terra-logo1 {
     color: rgb(255, 255, 255);
     font-size: 25px;
   }
-  .chesscord-nav5 {
+  .terra-nav {
+    gap: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  .terra-nav1 {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
+  .terra-nav11 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .terra-nav5 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
 }
 @media(max-width: 767px) {
-  .chesscord-navbar-interactive {
+  .terra-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chesscord-desktop-menu {
+  .terra-desktop-menu {
     display: none;
   }
-  .chesscord-hero1 {
+  .terra-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chesscord-features1 {
+  .terra-features1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chesscord-features-sub-heading {
+  .terra-features-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .chesscord-container05 {
+  .terra-container05 {
     grid-template-columns: 1fr;
   }
-  .chesscord-banner1 {
+  .terra-banner1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chesscord-faq1 {
+  .terra-faq1 {
     flex-direction: column;
   }
-  .chesscord-container06 {
+  .terra-container06 {
     max-width: 100%;
     align-self: center;
     align-items: center;
     justify-content: center;
   }
-  .chesscord-text37 {
+  .terra-text36 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .chesscord-footer1 {
+  .terra-footer1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chesscord-separator {
+  .terra-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .chesscord-container09 {
+  .terra-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .chesscord-text44 {
+  .terra-text43 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
-  .chesscord-navbar-interactive {
+  .terra-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .chesscord-hero1 {
+  .terra-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .chesscord-container02 {
+  .terra-container02 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .chesscord-hero-heading {
-    height: auto;
-  }
-  .chesscord-btn-group {
+  .terra-btn-group {
     flex-direction: column;
   }
-  .chesscord-features1 {
+  .terra-features1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .chesscord-banner1 {
+  .terra-banner1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .chesscord-footer1 {
+  .terra-footer1 {
     padding: var(--dl-space-space-unit);
   }
-  .chesscord-separator {
+  .terra-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .chesscord-container09 {
+  .terra-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .chesscord-text44 {
+  .terra-text43 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
