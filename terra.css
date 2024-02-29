@@ -179,15 +179,6 @@
   grid-gap: var(--dl-space-space-oneandhalfunits);
   grid-template-columns: 1fr 1fr;
 }
-.terra-pricing {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .terra-banner {
   flex: 0 0 auto;
   width: 100%;
@@ -197,7 +188,7 @@
   justify-content: center;
 }
 .terra-banner1 {
-  height: 269px;
+  height: 308px;
 }
 .terra-banner-heading {
   color: #ffffff;
